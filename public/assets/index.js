@@ -50,7 +50,7 @@ document.addEventListener("DOMContentLoaded", () => {
       });
     },
     {
-      threshold: 0.2, // Trigger when 20% of section is visible
+      threshold: 0.2, 
     }
   );
 
