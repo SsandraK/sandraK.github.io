@@ -2,7 +2,10 @@
 module.exports = {
 
   darkMode: ['class', '[data-theme="dark"]'],
-  content: ["./src/**/*.{astro,html,js,jsx,ts,tsx}"],
+  content: [
+    "./src/**/*.{astro,html,js,jsx,ts,tsx}",
+    "./public/**/*.{html,js}"
+  ],
   theme: {
     extend: {
       screens: {
